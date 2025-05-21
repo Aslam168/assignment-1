@@ -135,3 +135,69 @@ nav button {
     padding: 21px 24px;
     border-radius: 8px;
 }
+
+
+/* development related styles */
+
+.development{
+    background: rgba(13, 19, 33, 0.02);
+    margin-bottom: 100px;
+    border-radius: 16px;
+}
+
+.development-header {
+    padding: 80px 100px 60px 100px;
+    text-align: center;
+}
+
+.development-header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.development-header p {
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+.development-content-top {
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.development-content-one h1, .development-content-middle h1 {
+    line-height: 36px;
+    width: 420px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.development-content-one p, .development-content-middle p {
+    line-height: 26px;
+    width: 400px;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+.development-content-one button, .development-content-middle button {
+    font-size: 20px;
+    font-weight: 600;
+    border: 1 px solid;
+    border: 2px solid rgb(13, 19, 33);
+    padding: 12px 20px;
+    background: no-repeat;
+    opacity: 0.7;
+}
+
+/* development middle related styles */
+
+.development-content-middle {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    padding: 80px 100px;
+}
+
