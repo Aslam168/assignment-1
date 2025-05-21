@@ -313,3 +313,47 @@ nav button {
     margin-top: 50px;
     margin-bottom: 100px;
 }
+
+
+/* support section related styles */
+
+.support{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('../assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    border-radius: 16px;
+}
+
+.support-content {
+    padding: 64px 48px;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+}
+
+.support-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.support-content p {
+    opacity: 0.8;
+    width: 550px;
+    margin: 20px auto;
+}
+
+.support-content input[type="text"] {
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    width: 50%;
+}
+
+.support-content input[type="submit"] {
+    padding: 20px;
+    border-radius: 8px;
+    border: navajowhite;
+    margin-left: 15px;
+}
