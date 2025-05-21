@@ -235,14 +235,14 @@ nav button {
 
 /* my current target related styles */
 
-.current-target-content h1{
+.current-target-content h1, .next-target .next-target-header h1{
     text-align: center;
     font-size: 32px;
     font-weight: 800;
     padding-top: 80px;
 }
 
-.current-target-content p{
+.current-target-content p, .next-target .next-target-header p{
     text-align: center;
     opacity: 0.6;
     margin-top: 30px;
@@ -278,4 +278,38 @@ nav button {
 .current-target-item a{
     color: black;
     font-weight: 700;
+}
+
+
+/* my next target section related styles */
+
+.next-target-skill {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.next-target-skill-content h1 {
+    margin-bottom: 20px;
+}
+
+.next-target-skill-content p {
+    opacity: 0.6;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.next-target-skill-content a {
+    color: black;
+    font-weight: 700;
+}
+
+.next-target-skills {
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
