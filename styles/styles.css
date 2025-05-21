@@ -201,3 +201,33 @@ nav button {
     padding: 80px 100px;
 }
 
+
+/* inspiration related styles */
+
+.inspiration-header h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 80px;
+}
+
+.inspiration-header p {
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 30px;
+    width: 850px;
+    margin: 30px auto;
+    line-height: 26px;
+}
+
+.inspiration-video iframe {
+    border-radius: 16px;
+}
+
+.inspiration-video{
+    margin-top: 50px;
+}
+
+.inspiration{
+    margin-bottom: 70px;
+}
