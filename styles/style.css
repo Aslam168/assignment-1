@@ -247,3 +247,42 @@ section.review > h1 {
     font-family: 'Inter';
     color: #00000075;
 }
+
+
+/* optional section styles */
+
+section.optional {
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+section.optional h1 {
+    font-size: 45px;
+    font-family: 'Inter';
+    padding-top: 60px;
+}
+
+section.optional p {
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #00000087;
+    margin-bottom: 20px;
+}
+
+section.optional button {
+    margin-bottom: 25px;
+}
+
+section.optional img {
+    border-radius: 45px;
+    margin-bottom: 60px;
+}
+
+section.optional button:hover{
+     background: white;
+    color: black;
+    border: 2px solid #4E47FF;
+}
