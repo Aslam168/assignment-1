@@ -286,3 +286,51 @@ section.optional button:hover{
     color: black;
     border: 2px solid #4E47FF;
 }
+
+
+/* newsletter section */
+
+section.newsletter {
+    margin-top: 130px;
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.newsletter-content h1 {
+    font-size: 80px;
+    font-family: inter;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form input, textarea {
+    padding: 20px 25px;
+    border: none;
+    margin-bottom: 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #d6dded9c;
+    font-family: inter;
+}
+
+form h3 {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form button:hover{
+    background: white;
+    color: black;
+    border: 2px solid #4E47FF;
+}
