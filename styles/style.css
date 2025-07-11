@@ -75,6 +75,12 @@ section.banner {
     padding-bottom: 120px;
 }
 
+section.banner button:hover {
+    background: white;
+    color: black;
+    border: 2px solid #4E47FF;
+}
+
 
 
 /* action section styles */
@@ -103,4 +109,79 @@ section.action {
 
 .action-img img {
     border-radius: 50px;
+}
+
+.action-content button:hover {
+    background: white;
+    color: black;
+    border: 2px solid #4E47FF;
+}
+
+
+/* productive users section styles */
+
+section.productive-user {
+    text-align: center;
+}
+
+section.productive-user h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+}
+
+.user-review h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.user-review {
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-review div h1 {
+    font-size: 75px;
+    font-family: 'Inter';
+    margin-top: 40px;
+}
+
+section.productive-user {
+    margin-bottom: 120px;
+}
+
+section.productive-user {
+    text-align: center;
+}
+
+section.productive-user >h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.user-review h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.user-review {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.user-review div h1 {
+    font-size: 75px;
+    font-family: 'Inter';
+    margin-top: 40px;
+}
+
+section.productive-user {
+    margin-bottom: 120px;
+    background: rgb(78 71 255 / 14%);
+    border-radius: 20px;
+}
+
+.user-review div span {
+    color: rgba(37, 36, 50, 0.49);
+    font-size: 20px;
+    font-family: 'Raleway';
 }
