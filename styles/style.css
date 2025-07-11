@@ -86,7 +86,7 @@ section.banner button:hover {
 /* action section styles */
 
 section.action {
-    margin-top: 120px;
+    padding-top: 120px;
     display: flex;
     justify-content: space-between;
     gap: 200px;
