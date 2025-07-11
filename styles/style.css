@@ -334,3 +334,81 @@ form button:hover{
     color: black;
     border: 2px solid #4E47FF;
 }
+
+
+/* footer section styles */
+
+footer {
+    text-align: center;
+    padding-top: 100px;
+}
+
+footer h1 {
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+footer p {
+    width: 50%;
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #0000006b;
+    line-height: 22px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #0000006b;
+    font-family: 'Inter', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer h1 {
+    font-size: 60px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+h1.common-clr {}
+
+footer p {
+    width: 50%;
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #0000006b;
+    line-height: 22px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+footer ul li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #0000006b;
+    font-family: 'Inter', sans-serif;
+}
